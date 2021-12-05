@@ -1,0 +1,14 @@
+create database studentdb;
+use studentdb;
+
+create table student
+(
+id int primary key auto_increment,
+firstName varchar(50),
+lastName varchar(50),
+course varchar(50),
+country varchar(50)
+);
+
+insert into student values(1,'Suresh','babu','B.Tech', 'India');
+insert into student values(2,'peter','england','B.Arch', 'UK');
